@@ -1,0 +1,19 @@
+button {
+    background-color: transparent;
+    border: none;
+}
+
+#logo {
+    height: 64px;
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 32px;
+    height: 32px;
+    background-color: #FF385C;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
