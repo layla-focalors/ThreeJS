@@ -1,0 +1,23 @@
+body {
+    background-color: bisque;
+}
+
+.flex-container {
+    display: flex;
+    background-color: purple;
+    padding: 10px;
+    width: 300px;
+}
+
+.flex-item {
+    background-color: aqua;
+    border: 1px solid black;
+    /* flex-grow: 2; */
+    flex-basis: 150px;
+    width: 150px;
+    flex-shrink: 1;
+}
+
+.flex-item:nth-child(1) {
+    flex-shrink: 2;
+}
