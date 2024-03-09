@@ -3,17 +3,52 @@ button {
     border: none;
 }
 
+#headers {
+    width: 100vw;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #FF385C; */
+}
+
+#little-search {
+    width: 300px;
+    height: 10px;
+    /* width: auto; */
+}
+
+#little-search-button {
+    align-items: center;
+    padding: 0 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#little-search-button:nth-child(2){
+    color: purple;
+    box-shadow: inset;
+}
+
 #logo {
     height: 64px;
     cursor: pointer;
 }
 
+.dataio {
+    flex-basis: 1px;
+    background-color: #ddd;
+}
+
 .wrapper {
-    width: 32px;
-    height: 32px;
+    /* width: 32px;
+    height: 32px; */
     background-color: #FF385C;
     border-radius: 50%;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
 }
