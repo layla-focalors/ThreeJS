@@ -1,0 +1,47 @@
+/* css animate w, keyframe*/
+@keyframes ColorChange {
+    from {
+        color: red;
+    }
+    50% {
+        color: yellow;
+    }
+    to {
+        color: blue;
+    }
+}
+
+@keyframes moveToRight {
+    from {
+        color: navy;
+    }
+    50% {
+        color: green;
+        scale: 1.5;
+        transform: translate(100px);
+    }
+    to {
+        transform: skewY(30deg);
+        scale: 3;
+        color: pink;
+        transform: translate(300px);
+    }
+}
+
+
+button {
+    /* animation: moveToRight 10s infinite alternate; */
+    /* animation-delay: 2s; */
+    animation-direction: alternate;
+    /* animation-play-state: paused; */
+    color: royalblue;
+    animation: moveToRight 10s infinite alternate;
+    animation-fill-mode: none;
+}
+
+.mains {
+    /* animation: moveToRight 10s infinite alternate; */
+    width: 300px;
+    height: auto;
+}
+
