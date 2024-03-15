@@ -11,6 +11,10 @@ def main():
     while True:
         commit()
         time.sleep(random.randint(1, 100))
+        
+def psomic():
+    pass
 
 if __name__ == '__main__':
     main()
+    

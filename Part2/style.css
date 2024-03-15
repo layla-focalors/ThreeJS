@@ -52,3 +52,14 @@ button {
     align-items: center;
     justify-content: center;
 }
+
+.do-air {
+    font-size: 14pt;
+    color: thistle;
+    font-weight: 640;
+    cursor: pointer;
+}
+
+#right-section {
+
+}
