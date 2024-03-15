@@ -37,6 +37,8 @@ button {
     color: royalblue;
     animation: moveToRight 10s infinite alternate;
     animation-fill-mode: none;
+    /* 곡선 및 데이터 처리 */
+    animation-timing-function: ease-in(1, 1, 1, 1);
 }
 
 .mains {
