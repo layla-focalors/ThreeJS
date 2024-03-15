@@ -58,8 +58,46 @@ button {
     color: thistle;
     font-weight: 640;
     cursor: pointer;
+    margin-right: 30px;
+    overflow: hidden;
 }
 
 #right-section {
-
+    padding: 5px 5px 5px 12px;
 }
+
+.category-button {
+    color: #717171;
+    font-size: 12px;
+    font-weight: 600;
+
+    /*  */
+}
+
+.category-button img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#category-bar::-webkit-scrollbar {
+    display: none;
+}
+
+#category-bar {
+    display: flex;
+    gap: 32px;
+    padding: 0 40px 20px;
+    /* background-color: #FF385C; */
+    overflow: auto;
+}
+
+/* hover시 action 실행 */
+.category-button:hover {
+    color: black;
+
+    /* 하단 선택바 생성 */
+    border-bottom: 2px solid #FF385C;
+}
+
+/* hover : 마우스를 올릴 때 스타일 - js 필요 없음 */
