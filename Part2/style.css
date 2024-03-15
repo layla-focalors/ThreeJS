@@ -100,4 +100,25 @@ button {
     border-bottom: 2px solid #FF385C;
 }
 
+#grid {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: 50px 50px;
+    gap: 40px;
+    row-gap: 40px;
+    column-gap: 50px;
+}
+
+/* gap: 셀 간의 속성 / 간격 지정 */
+
 /* hover : 마우스를 올릴 때 스타일 - js 필요 없음 */
+
+#active-category-button {
+
+}
+
+#grid div:first-child {
+    background-color: #FF385C;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
